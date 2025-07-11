@@ -1,0 +1,36 @@
+header.masthead {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  background: linear-gradient(to bottom, rgba(50, 50, 50, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%),
+              url("../assets/img/bphoto.avif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+.s-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.avatar img {
+    max-width: 500px;
+    border-radius: 0.3em;
+}
+
+@media (width < 576px) {
+  .s-container {
+    flex-direction: column;
+  }
+
+  .avatar img {
+    max-width: 90%;
+  }
+}
