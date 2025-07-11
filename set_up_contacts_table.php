@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 $host = 'localhost';
 $db = 'websitejuly2025_db';
 $user = 'websitejuly2025_u';
-$pass = 'l9jA9Na9PRArM60';
+$pass = 'l9jA9Na9PRArM6O';
 
 // Connect to MySQL
 $conn = new mysqli($host, $user, $pass, $db);

@@ -12,7 +12,7 @@ if (empty($name) || empty($email) || empty($phone) || empty($message)) {
 $host = 'localhost';
 $dbname = 'websitejuly2025_db';
 $user = 'websitejuly2025_u';
-$pass = 'l9jA9Na9PRArM60';
+$pass = 'l9jA9Na9PRArM6O';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
