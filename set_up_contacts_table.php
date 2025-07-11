@@ -28,8 +28,7 @@ if ($result && $result->num_rows > 0) {
 
 // Create table if it doesn't exist
 if (!$tableExists) {
-    $sql = "
-        CREATE TABLE contacts (
+    $sql = "CREATE TABLE contacts (
             id INT AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(255) NOT NULL,
             email VARCHAR(255) NOT NULL,
