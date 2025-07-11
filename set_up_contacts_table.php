@@ -1,7 +1,12 @@
 <?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // Database configuration
 $host = 'localhost';
-$dbname = 'websitejuly2025_db';
+$db = 'websitejuly2025_db';
 $user = 'websitejuly2025_u';
 $pass = 'l9jA9Na9PRArM60';
 
